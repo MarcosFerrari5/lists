@@ -1,0 +1,47 @@
+* {
+    background-color: lightgrey;
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 3px solid black;
+    justify-content: center;
+    display: flex;
+    padding: 16px;
+}
+
+h2 {
+    border: 3px solid red;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+h3 {
+    border: 3px solid blue;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+    gap: 8px;
+    border: 3px solid purple;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.list {
+    margin: 16px;
+    border: 3px solid green;
+    padding: 6px;
+    width: 750px;
+}
+
+li {
+    border: 3px solid black;
+    margin: 5px;
+    padding: 2px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
